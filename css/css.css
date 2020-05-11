@@ -37,3 +37,7 @@ body {
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
+h3{
+text-align: center;
+font: 30px Montserrat, sans-serif;
+}
