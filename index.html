@@ -5,7 +5,6 @@
   <title>Spēle</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/css.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -15,6 +14,70 @@
   </style>
 </head>
 <body>
+	<style>
+	body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+	text-align: center;
+    background-color:cornsilk;
+	color:slategrey;
+	letter-spacing: 1px;
+
+  }
+  p {font-size: 16px;}
+ 
+  
+h3{
+
+font: 30px Montserrat, sans-serif;
+}
+.important{
+text-shadow: 1px 1px;
+	color: "";
+}
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.pareizais, .nepareizais{
+	background-color:azure;
+	padding: 1% 1%;
+	text-align: center;
+	border-radius: 0%;
+	float: left;
+	
+}
+.pareizais:disabled {
+  opacity: 0.8;
+  
+}
+.nepareizais:disabled {
+  opacity: 0.8;
+ 
+}
+button:hover {
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+}
+.pareizais:hover {
+box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);}
+.nepareizais:hover {
+box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);}
+
+button:active {
+  background-color:aliceblue;
+  transform: translateY(1px);
+}
+.pareizais:active {
+  background-color:aliceblue;
+  transform: translateY(1px);
+}
+.nepareizais:active {
+  background-color:aliceblue;
+  transform: translateY(1px);
+}
+
+	
+	</style>
 	
 <h3>SPĒLE:</h3>
 
